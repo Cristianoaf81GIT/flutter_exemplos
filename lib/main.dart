@@ -1,6 +1,7 @@
-import 'package:exemplos/EntradaRadioButton.dart';
-import 'package:exemplos/switch/EntradaSwitch.dart';
-import 'package:exemplos/slider/EntradaSlider.dart';
+// import 'package:exemplos/EntradaRadioButton.dart';
+// import 'package:exemplos/switch/EntradaSwitch.dart';
+import 'package:exemplos/navegacao/tela_principal.dart';
+// import 'package:exemplos/slider/EntradaSlider.dart';
 import 'package:flutter/material.dart';
 
 
@@ -10,7 +11,8 @@ void main() {
       debugShowCheckedModeBanner: false,
       // home: EntradaRadioButton(),
       // home: EntradaSwitch(),
-      home: EntradaSlider(),
+      // home: EntradaSlider(),
+      home: TelaPrincipal(),
     ),
   );
 }
